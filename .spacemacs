@@ -42,7 +42,7 @@ This function should only modify configuration layer settings."
      rust
      yaml
      html
-     javascript
+     (javascript :variables js2-mode-show-strict-warnings nil)
      (python :variables
              python-backend 'anaconda)
      auto-completion
@@ -60,7 +60,7 @@ This function should only modify configuration layer settings."
      ;; spell-checking
      syntax-checking
      ;; version-control
-     treemacs)
+     (treemacs :variables treemacs-use-git-mode 'deferred))
 
 
    ;; List of additional packages that will be installed without being wrapped
